@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kerem Akdoğan - Portfolyo</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="background-blobs">
+      <div class="blob blob-1"></div>
+      <div class="blob blob-2"></div>
+      <div class="blob blob-3"></div>
+    </div>
+
+    <div class="grid-overlay"></div>
+
+    <header>
+      <nav class="navbar">
+        <a href="#" class="logo"> KA<span class="dot">.</span> </a>
+
+        <div class="nav-links">
+          <a href="index.html">Ana Sayfa</a>
+          <a href="hakkımda.html">Hakkımda</a>
+          <a href="projeler.html">Projeler</a>
+          <a href="#contact" class="btn-contact">İletişim</a>
+        </div>
+
+        <button class="mobile-toggle" id="mobileToggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </nav>
+
+      <div class="mobile-menu" id="mobileMenu">
+        <a href="#">Ana Sayfa</a>
+        <a href="hakkimda.html">Hakkımda</a>
+        <a href="#">Projeler</a>
+        <a href="#contact">İletişim</a>
+      </div>
+    </header>
+
+    <main class="hero-section">
+      <div class="container">
+        <div class="content-text">
+          <div class="badge">
+            <span class="status-dot"></span>
+            Available for work
+          </div>
+
+          <div class="typing-container">
+            <h2 class="typing-text">Junior Frontend Developer</h2>
+          </div>
+
+          <h1 class="main-title">
+            Kerem <br />
+            <span class="text-gradient">Akdoğan</span>
+          </h1>
+
+          <p class="description">
+            Dijital fikirleri piksel piksel işleyerek, <span class="highlight">performanslı</span> ve
+            <span class="highlight">kullanıcı odaklı</span> modern web deneyimlerine dönüştürüyorum.
+          </p>
+
+          <div class="buttons">
+            <a href="projeler.html" class="btn-primary">
+              Projelerimi Gör
+              <span class="arrow">→</span>
+            </a>
+            <a href="#contact" class="btn-secondary">İletişime Geç</a>
+          </div>
+        </div>
+
+        <div class="content-image">
+          <div class="orbit-circle orbit-1"></div>
+          <div class="orbit-circle orbit-2"></div>
+
+          <div class="image-wrapper animate-float">
+            <div class="glow-effect"></div>
+            <img src="C:\Users\Kerem\Downloads\Gemini_Generated_Image_ho7n7jho7n7jho7n.png" alt="Kerem Akdoğan" class="profile-img" />
+
+            <div class="floating-icon icon-code">💻</div>
+            <div class="floating-icon icon-rocket">🚀</div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <section id="contact" class="contact-section">
+      <div class="container contact-container">
+        <div class="contact-info">
+          <h2 class="section-title">Birlikte <br /><span class="text-gradient">Çalışalım</span></h2>
+          <p class="contact-desc">
+            Yeni bir proje fikrin mi var veya sadece merhaba mı demek istiyorsun? Formu doldur veya sosyal medyadan bana ulaş.
+          </p>
+
+          <div class="contact-methods">
+            <div class="method-item">
+              <span class="method-icon">📧</span>
+              <div class="method-text">
+                <span class="label">Mail Gönder</span>
+                <span class="value">akdogankerem81@gmail.com</span>
+              </div>
+            </div>
+
+            <div class="method-item">
+              <span class="method-icon">📍</span>
+              <div class="method-text">
+                <span class="label">Konum</span>
+                <span class="value">Türkiye / Düzce</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="social-links">
+            <a href="https://www.linkedin.com/in/kerem-akdoğan-b77145314" class="social-btn linkedin">
+              <span class="btn-init">Li</span>
+              <span class="btn-expand">nkedIn</span>
+            </a>
+
+            <a href="https://github.com/KeremAKDOGAN81" class="social-btn github">
+              <span class="btn-init">Gi</span>
+              <span class="btn-expand">tHub</span>
+            </a>
+
+            <a href="https://x.com/Kerem_Akdogan_" class="social-btn twitter">
+              <span class="btn-init">Tw</span>
+              <span class="btn-expand">itter</span>
+            </a>
+          </div>
+        </div>
+
+        <form class="contact-form" action="https://formspree.io/f/mqajjoja" method="POST">
+          <div class="form-group">
+            <label>Adınız</label>
+            <input type="text" name="name" placeholder="John Doe" required />
+          </div>
+
+          <div class="form-group">
+            <label>E-posta</label>
+            <input type="email" name="email" placeholder="ornek@email.com" required />
+          </div>
+
+          <div class="form-group">
+            <label>Mesajınız</label>
+            <textarea name="message" placeholder="Proje detaylarından bahsedin..." rows="4" required></textarea>
+          </div>
+
+          <button type="submit" class="btn-primary w-full">
+            Gönder
+            <span class="arrow">→</span>
+          </button>
+        </form>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
